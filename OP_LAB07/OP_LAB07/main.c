@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 #include "functions.h"
@@ -33,7 +33,7 @@ int main()
     double qs_time = (double)(c2 - c1) * 1000.0 / CLOCKS_PER_SEC;
     double bs_time = (double)(c4 - c3) * 1000.0 / CLOCKS_PER_SEC;
 
-    printf("QuickSort ascending sorted: %s\n", is_sorted_asc(a, SIZE) ? "YES" : "NO");
+    printf("QuickSort ascending sorted: %s\n", is_sorted_asc(a, SIZE) ? "WOW" : "NO");
     printf("Bubble sort descending sorted: %s\n", is_sorted_desc(b, SIZE) ? "YES" : "NO");
     printf("Arrays identical before sorting: YES\n");
 
@@ -44,3 +44,5 @@ int main()
     free(b);
     return 0;
 }
+
+//вставляєш тіпа код РТФ я просто шо небудь зміню для прикладу
