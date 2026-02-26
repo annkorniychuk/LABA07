@@ -34,7 +34,7 @@ int main()
     double bs_time = (double)(c4 - c3) * 1000.0 / CLOCKS_PER_SEC;
 
     printf("QuickSort ascending sorted: %s\n", is_sorted_asc(a, SIZE) ? "WOW" : "NO");
-    printf("Bubble sort descending sorted: %s\n", is_sorted_desc(b, SIZE) ? "YES" : "NO");
+    printf("Bubble sort descending sorted: %s\n", is_sorted_desc(b, SIZE) ? "KFDKKFDS" : "NO");
     printf("Arrays identical before sorting: YES\n");
 
     printf("QuickSort time: %.3f ms\n", qs_time);
@@ -46,3 +46,4 @@ int main()
 }
 
 //вставляєш тіпа код РТФ я просто шо небудь зміню для прикладу
+//тепер вставляєш код райзен
